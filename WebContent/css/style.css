@@ -1,0 +1,202 @@
+body {
+	background-image:url('../imgs/bg1.jpg');
+	background-repeat:repeat;
+}
+
+a {
+	color: transparent;
+}
+
+.logo {
+	left: 589px;
+	top: 33px;
+	position: absolute;
+}
+
+.cartTxtImg {
+	left: -2px;
+	position: relative;
+	top: 4px;
+	height: 22px;
+}
+
+.storeContainer {
+	margin: -9px 180px;
+	width: 1000px;
+	height: 600px;
+	background-image:url('../imgs/bg2.png');
+	//background-image:url("http://localhost:8080/JavaTunes/imgs/bg.jpg");
+	//background-repeat: no-repeat;
+	//background-size: cover;
+}
+
+.hiddenSidebar {
+	top: 186px;
+	left: 195px;
+	width: 152px;
+	height: 200px;
+	position: fixed;
+	overflow: hidden;
+	display: inline-block;
+}
+
+.sidebar {
+	top: 16px;
+	left: -103px;
+	position: relative;
+	width: 150px;
+	height: 180px;
+	-webkit-transition: left 0.5s;
+	background-image:url('../imgs/sidebar.png');
+}
+.sidebar:hover {
+	left: 0px;
+	-webkit-transition: left 0.5s;
+}
+
+
+.menu {
+	position: relative;
+	width: 150px;
+	height: 173px;
+}
+
+.menu .catalogBtn 
+{
+	z-index:4;
+	background: transparent;
+	border: 0;
+	cursor: pointer;
+	position: relative;
+	top: 25px;
+	left: 0px;
+	height: 26px;
+	width: 90px;
+}
+
+.menu .purchasedBtn 
+{
+	z-index:4;
+	background: transparent;
+	border: 0;
+	cursor: pointer;
+	position: relative;
+	top: 35px;
+	left: 0px;
+	height: 26px;
+	width: 90px;
+}
+
+.menu .playlistBtn 
+{
+	z-index:4;
+	background: transparent;
+	border: 0;
+	cursor: pointer;
+	position: relative;
+	top: 43px;
+	left: 0px;
+	height: 26px;
+	width: 90px;
+}
+
+.menu .playerBtn 
+{
+	z-index:4;
+	background: transparent;
+	border: 0;
+	cursor: pointer;
+	position: relative;
+	top: 48px;
+	left: 0px;
+	height: 26px;
+	width: 90px;
+}
+
+.jspContainer {
+	position: relative;
+	top: 98px;
+	left: 165px;
+	height: 450px;
+	width: 800px;
+	/*background-color: gray;*/
+	overflow: auto;
+}
+
+.headerBar {
+	left: 207px;
+	position: absolute;
+	top: -3px;
+	background: transparent;
+	width: 978px;
+	height: 20px;
+	
+}
+
+.button 
+{
+	width: 50px;
+	height: 50px;
+	text: "!!!!";
+	position: absolute;
+	top: 100px;
+	right: 228px;
+}
+
+.previewWrapper1 {
+	display: none;
+	width: 420px;
+	height: 365px;
+	position: absolute;
+	top: 100px;
+	right: 228px;
+}
+
+.previewWrapper2 {
+	/*width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 50px;
+	right: 228px;*/
+}
+
+.back {
+	top: 93px;
+	position: absolute;
+	left: 85px;
+	cursor: pointer;
+}
+
+.next {
+	top: 92px;
+	left: 195px;
+	position: absolute;
+	cursor: pointer;
+}
+.random {
+	top: 100px;
+	position: absolute;
+	left: 142px;
+	cursor: pointer;
+}
+
+.unRandom {
+	top: 100px;
+	position: absolute;
+	left: 142px;
+	cursor: pointer;
+}
+
+.list {
+	top: 143px;
+	position: absolute;
+	width: 331px;
+}
+
+.iFrame2 {
+	height: 292px;
+	width: 385px;
+	top: 96px;
+	position: absolute;
+	left: 360px;
+}

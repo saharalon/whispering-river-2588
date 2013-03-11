@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="il.ac.shenkar.JavaTunes.Track" table="TRACKS">
+		<id name="id">
+			<column name="ID" />
+		</id>
+		<property name="artist">
+			<column name="ARTIST"/>
+		</property>
+		<property name="title">
+			<column name="TITLE"/>
+		</property>
+		<property name="preLink">
+			<column name="PRELINK"/>
+		</property>
+		<property name="downLink">
+			<column name="DOWNLINK"/>
+		</property>
+		<property name="price">
+			<column name="PRICE"/>
+		</property>
+	</class>
+</hibernate-mapping>
